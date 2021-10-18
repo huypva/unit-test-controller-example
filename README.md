@@ -29,7 +29,7 @@ $ docker-compose -f ./docker-compose-infrastructure.yml -p sb-unit-test-controll
 
 - Run unit test
 ```shell script
-$ cd unit-test-controller
+$ cd unit-test-sonar-qube
 $ ../mvnw clean test
 ...
 ```
@@ -43,7 +43,7 @@ $ ../mvnw clean test
 - Report to SonarQube
 
 ```shell script
-$ cd unit-test-controller
+$ cd unit-test-sonar-qube
 $ ./sonar_report.sh
 ```
 
