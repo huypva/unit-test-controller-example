@@ -4,4 +4,4 @@ spring:
   profiles:
     active: local
   application:
-    name: "hello-word"
+    name: "unit-test-controller"
