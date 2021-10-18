@@ -17,14 +17,39 @@ The example project for StringBoot service
 └── README.md
 ```
 
-## Start services
-### Start services in local
+## Start infrastructure
+
+- Start infrastructure
+
+```shell script
+$ docker-compose -f ./docker-compose-infrastructure.yml -p sb-unit-test-controller-infrastructure up -d
+```
+
+## Run Unit test report
 
 - Run unit test
 ```shell script
-$ ./mvnw clean test
+$ cd unit-test-controller
+$ ../mvnw clean test
 ...
 ```
+
+- Open report file target/site/jacoco/index.html
+
+<div align="center">
+    <img src="./assets/images/jacoco.png"/>
+</div>
+
+- Report to SonarQube
+
+```shell script
+$ cd unit-test-controller
+$ ./sonar_report.sh
+```
+
+<div align="center">
+    <img src="./assets/images/sonar_qube.png"/>
+</div>
 
 ## Contribute
 
@@ -34,3 +59,5 @@ $ ./mvnw clean test
 - https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-18-testing-in-spring-boot
 - https://www.baeldung.com/junit-5
 - https://www.baeldung.com/spring-boot-testing
+- https://pauledenburg.com/sonarqube-postgres-docker-compose/
+- https://www.baeldung.com/sonar-qube
