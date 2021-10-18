@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.codebyexample</groupId>
-    <artifactId>unit-test-controller-example</artifactId>
+    <artifactId>unit-test-sona-qube-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Parent</name>
 
     <modules>
-        <module>unit-test-controller</module>
+        <module>unit-test-sonar-qube</module>
     </modules>
 
     <build>

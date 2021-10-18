@@ -1,4 +1,4 @@
-package io.codebyexample.unittestcontroller;
+package io.codebyexample.unittestsonarqube;
 
 import lombok.Generated;
 import org.springframework.boot.SpringApplication;

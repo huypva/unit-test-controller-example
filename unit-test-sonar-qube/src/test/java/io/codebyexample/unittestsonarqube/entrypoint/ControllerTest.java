@@ -1,4 +1,4 @@
-package io.codebyexample.unittestcontroller.entrypoint;
+package io.codebyexample.unittestsonarqube.entrypoint;
 
 import static org.hamcrest.Matchers.is;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -6,10 +6,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import io.codebyexample.unittestcontroller.core.entity.Greeting;
-import io.codebyexample.unittestcontroller.core.usecase.GreetUseCase;
+import io.codebyexample.unittestsonarqube.core.entity.Greeting;
+import io.codebyexample.unittestsonarqube.core.usecase.GreetUseCase;
 import org.junit.jupiter.api.Test;
-import org.mockito.BDDMockito;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

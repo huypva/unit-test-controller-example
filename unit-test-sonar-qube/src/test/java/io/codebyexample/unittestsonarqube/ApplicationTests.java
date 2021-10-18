@@ -1,4 +1,4 @@
-package io.codebyexample.unittestcontroller;
+package io.codebyexample.unittestsonarqube;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

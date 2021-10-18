@@ -1,7 +1,7 @@
-package io.codebyexample.unittestcontroller.core.usecase;
+package io.codebyexample.unittestsonarqube.core.usecase;
 
 
-import io.codebyexample.unittestcontroller.core.entity.Greeting;
+import io.codebyexample.unittestsonarqube.core.entity.Greeting;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

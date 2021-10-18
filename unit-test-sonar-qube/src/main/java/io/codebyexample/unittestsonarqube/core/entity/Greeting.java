@@ -1,4 +1,4 @@
-package io.codebyexample.unittestcontroller.core.entity;
+package io.codebyexample.unittestsonarqube.core.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

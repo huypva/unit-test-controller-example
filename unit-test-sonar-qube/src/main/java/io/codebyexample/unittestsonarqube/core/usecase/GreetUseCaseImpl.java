@@ -1,6 +1,6 @@
-package io.codebyexample.unittestcontroller.core.usecase;
+package io.codebyexample.unittestsonarqube.core.usecase;
 
-import io.codebyexample.unittestcontroller.core.entity.Greeting;
+import io.codebyexample.unittestsonarqube.core.entity.Greeting;
 import org.springframework.stereotype.Component;
 
 /**

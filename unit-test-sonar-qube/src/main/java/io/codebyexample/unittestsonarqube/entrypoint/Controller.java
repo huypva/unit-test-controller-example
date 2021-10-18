@@ -1,7 +1,7 @@
-package io.codebyexample.unittestcontroller.entrypoint;
+package io.codebyexample.unittestsonarqube.entrypoint;
 
-import io.codebyexample.unittestcontroller.core.entity.Greeting;
-import io.codebyexample.unittestcontroller.core.usecase.GreetUseCase;
+import io.codebyexample.unittestsonarqube.core.entity.Greeting;
+import io.codebyexample.unittestsonarqube.core.usecase.GreetUseCase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
