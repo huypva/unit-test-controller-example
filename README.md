@@ -9,7 +9,7 @@ The example project for StringBoot service
 ## Project structure
 ```
 .
-├── hello-world
+├── unit-test-controller
 │   ├── Dockerfile
 │   ...
 ├── docker-compose.yaml
@@ -36,7 +36,7 @@ $ docker-compose -f ./docker-compose-infrastructure.yml -p spring-boot-infrastru
 - Build project
 ```shell script
 $ ./mvnw clean package
-$ cd hello-word
+$ cd unit-test-controller
 $ ../mvnw spring-boot:run
 ...
 ```
@@ -66,3 +66,7 @@ $ docker-compose -f ./docker-compose-service.yml -p spring-boot-service down
 ## Contribute
 
 ## Reference
+
+- https://loda.me/test-huong-dan-toan-tap-mockito-loda1576641016810/
+- https://github.com/loda-kun/spring-boot-learning/tree/master/spring-boot-18-testing-in-spring-boot
+- https://www.baeldung.com/junit-5

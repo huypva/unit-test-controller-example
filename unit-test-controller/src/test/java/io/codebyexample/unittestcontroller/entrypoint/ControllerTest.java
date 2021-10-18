@@ -1,4 +1,4 @@
-package io.codebyexample.helloworld.entrypoint;
+package io.codebyexample.unittestcontroller.entrypoint;
 
 import static org.hamcrest.Matchers.is;
 import static org.mockito.BDDMockito.given;
@@ -7,8 +7,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import io.codebyexample.helloworld.core.entity.Greeting;
-import io.codebyexample.helloworld.core.usecase.GreetUseCase;
+import io.codebyexample.unittestcontroller.core.entity.Greeting;
+import io.codebyexample.unittestcontroller.core.usecase.GreetUseCase;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
