@@ -17,7 +17,7 @@ services:
       - sonarqube_extensions:/opt/sonarqube/extensions
       - sonarqube_bundled-plugins:/opt/sonarqube/lib/bundled-plugins
     networks:
-      unit-test-controller-network:
+      unit-test-sonar-qube-network:
 
   db:
     image: postgres:12.1
@@ -32,7 +32,7 @@ services:
       # This needs explicit mapping due to https://github.com/docker-library/postgres/blob/4e48e3228a30763913ece952c611e5e9b95c8759/Dockerfile.template#L52
       - postgresql_data:/var/lib/postgresql/data
     networks:
-      unit-test-controller-network:
+      unit-test-sonar-qube-network:
 
 volumes:
   postgresql_data:
@@ -43,5 +43,5 @@ volumes:
   sonarqube_extensions:
 
 networks:
-  unit-test-controller-network:
+  unit-test-sonar-qube-network:
 
